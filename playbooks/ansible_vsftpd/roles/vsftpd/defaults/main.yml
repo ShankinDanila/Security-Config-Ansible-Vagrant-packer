@@ -1,0 +1,15 @@
+---
+vsftpd_key_file: ssl-cert.key
+vsftpd_cert_file: ssl-cert.pem
+vsftpd_csrs_file: ssl-csrs.csr
+openssl_certs_path: /etc/ssl/certs
+openssl_keys_path: /etc/ssl/private
+openssl_csrs_path: /etc/ssl/csrs
+openssl_csr_cn: home.mephi.ru
+openssl_csr_subject: CN=home.mephi.ru,ST=MOW,L=Moscow
+openssl_csr_subject_alt: "DNS:home.mephi.ru,DNS:www.home.mephi.ru"
+organization_name: "MEPHI"
+user_name: ftpuser
+user_password: ftpuser
+password_hash: dfd15faadb7acd0ab6329aa9941c33e977d82028fa0b3193857eef8c2fc077c0
+...

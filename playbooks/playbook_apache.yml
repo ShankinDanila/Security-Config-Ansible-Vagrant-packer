@@ -1,0 +1,23 @@
+---
+- name: Install Apache and Upload Web Page
+  hosts: all
+  become: yes
+
+  vars:
+    sourse_file: ../CleanTemplateHTMLpage/index.html
+    destin_file: /var/www/html
+
+  tasks:
+  - name: Install Apache Web Server
+    apt: name=apache2 state=latest
+
+  - name: Copy Web Page to the server
+    copy: src={{ sourse_file }} dest={{ destin_file }}
+    notify: Restart Apache
+
+  - name: Start WebServer and make it enable
+    service: name=apache2 state=started enabled=yes
+
+  handlers:
+  - name: Restart Apache
+    service: name=apache2 state=restarted

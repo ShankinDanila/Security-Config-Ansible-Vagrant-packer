@@ -1,0 +1,17 @@
+---
+- name: Install vsftpd server and configurate in insecure
+  hosts: all
+  become: yes
+
+  vars:
+    destin_file: /etc/vsftpd.conf
+
+  tasks:
+  - name: Install vsftpd Server
+    apt: name=vsftpd state=latest
+
+  - name: Make config file secure
+    lineinfile: dest={{ destin_file }} regexp='^anonymous_enable=YES' line='anonymous_enable=NO'
+
+  - name: Start vsftpd and make it enable
+    service: name=vsftpd state=restarted enabled=yes

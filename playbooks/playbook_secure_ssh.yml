@@ -1,0 +1,61 @@
+---
+  - hosts: all
+    become: true
+    remote_user: anscfg
+  
+  tasks:
+    - name: Add key exchange, ciphers and MAC
+    - lineinfile: dest=/etc/ssh/sshd_config regexp='^KexAlgorithms' line='KexAlgorithms curve25519-sha256@libssh.org,diffie-hellman-group-exchange-sha256'
+    - lineinfile: dest=/etc/ssh/sshd_config regexp='^Ciphers' line='Ciphers chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr'
+        
+    - name: Enable the most secure server authentication algorithms and protocol version 2
+      lineinfile: dest=/etc/ssh/sshd_config regexp='^Protocol 2' line='Protocol 2' 
+    - lineinfile: dest=/etc/ssh/sshd_config regexp='^HostKey /etc/ssh/ssh_host_ed25519_key' line='HostKey /etc/ssh/ssh_host_ed25519_key'
+    - lineinfile: dest=/etc/ssh/sshd_config regexp='^HostKey /etc/ssh/ssh_host_rsa_key' line='HostKey /etc/ssh/ssh_host_rsa_key'   
+
+    - name: Disable insecure algorithms
+      lineinfile: 
+        dest: /etc/ssh/sshd_config 
+        regexp: '^HostKey /etc/ssh/ssh_host_ecdsa_key' 
+        state: absent
+    - lineinfile: 
+        dest: /etc/ssh/sshd_config 
+        regexp: '^HostKey /etc/ssh/ssh_host_dsa_key'
+        state: absent
+    
+    - name: remove key files
+      file:
+        dest: /etc/ssh/ssh_host_ecdsa_key.pub
+        state: absent
+    - file:
+        dest: /etc/ssh/ssh_host_ecdsa_key
+        state: absent
+    - file:
+        dest: /etc/ssh/ssh_host_dsa_key.pub
+        state: absent
+    - file:
+        dest: /etc/ssh/ssh_host_dsa_key
+        state: absent
+  
+    - name: Disable password login and allow login only with publickey.
+      lineinfile: dest=/etc/ssh/sshd_config regexp='^#?AuthenticationMethods' line='AuthenticationMethods publickey'
+    - lineinfile: dest=/etc/ssh/sshd_config regexp='^#?PasswordAuthentication' line='PasswordAuthentication no'
+    - lineinfile: dest=/etc/ssh/sshd_config regexp='^#?ChallengeResponseAuthentication' line='ChallengeResponseAuthentication no'
+    - lineinfile: dest=/etc/ssh/sshd_config regexp='^#?PubkeyAuthentication' line='PubkeyAuthentication yes'   
+      
+    # Set LogLevel to VERBOSE
+    - lineinfile: dest=/etc/ssh/sshd_config regexp='^LogLevel' line='LogLevel VERBOSE'
+
+    # Disable root login
+    - lineinfile: dest=/etc/ssh/sshd_config regexp='^PermitRootLogin' line='PermitRootLogin No'
+   
+    # Allow only certain users to log in (you can specify AllowGroups)
+    - lineinfile: dest=/etc/ssh/sshd_config regexp='^AllowUsers' line='AllowUsers anscfg'
+    
+    - name: restart sshd.
+      service:
+        name: sshd
+        state: restarted
+    
+    - debug:
+        msg: "Ready! If necessary, generate client keys with the following command: ssh-keygen -t ed25519 -o -a 100 && ssh-keygen -t rsa -b 4096 -o -a 100"

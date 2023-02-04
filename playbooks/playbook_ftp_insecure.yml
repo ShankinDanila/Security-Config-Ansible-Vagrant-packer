@@ -1,0 +1,37 @@
+---
+- name: Install vsftpd server and configurate in insecure
+  hosts: all
+  become: yes
+
+  vars:
+    destin_file: /etc/vsftpd.conf
+
+  tasks:
+  - name: Install vsftpd Server
+    apt: name=vsftpd state=latest
+
+  - name: Make config file insecure
+    lineinfile: dest={{ destin_file }} regexp='^listen=NO' line='listen=YES'
+    lineinfile: dest={{ destin_file }} regexp='^listen_ipv6=YES' line='listen_ipv6=NO'
+    lineinfile: dest={{ destin_file }} regexp='^anonymous_enable=NO' line='anonymous_enable=YES'
+    lineinfile: dest={{ destin_file }} regexp='^ssl_enable=YES' line='ssl_enable=NO'
+    lineinfile: dest={{ destin_file }} regexp='^ssl_tlsv1=YES' line='ssl_tlsv1=NO'
+    lineinfile: dest={{ destin_file }} regexp='^chroot_local_user=YES' line='chroot_local_user=NO'
+    lineinfile: dest={{ destin_file }} regexp='^force_local_data_ssl=YES' line='force_local_data_ssl=NO'
+    lineinfile: dest={{ destin_file }} regexp='^force_local_logins_ssl=YES' line='force_local_logins_ssl=NO'
+    lineinfile: dest={{ destin_file }} regexp='^local_umask=022' line='local_umask=000'
+
+  - name: Install configuration file
+    template:
+      src:  template_insecure_ftp.j2
+      dest: /etc/vsftpd.conf
+      mode: '0600'
+    notify: Restart vsftpd
+    tags: vsftpd
+    
+  - name: Start vsftpd and make it enable
+    service: name=vsftpd state=started enabled=yes
+
+  handlers:
+  - name: Restart vsftpd
+    service: name=vsftpd state=restarted

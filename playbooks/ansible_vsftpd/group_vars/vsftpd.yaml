@@ -1,0 +1,8 @@
+---
+ansible_user                   : vagrant
+ansible_ssh_private_key_file   : /home/danila/Desktop/project/.vagrant/machines/default/virtualbox/private_key
+ansible_python_interpreter     : /usr/bin/python3
+ansible_become                 : yes 
+ansible_become_method          : sudo
+ansible_become_pass            : "vagrant"
+...
