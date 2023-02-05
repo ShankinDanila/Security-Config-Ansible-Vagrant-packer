@@ -1,0 +1,12 @@
+---
+- name: Preparation for ftp playbook
+  hosts: all
+  become: yes
+
+  vars:
+    sourse_file: /etc/vsftpd.conf
+    destin_file: /home/danila/Desktop/project/nmap_work
+
+  tasks:
+  - name: Copy config file to local host
+    fetch: src={{ sourse_file }} dest={{ destin_file }}
