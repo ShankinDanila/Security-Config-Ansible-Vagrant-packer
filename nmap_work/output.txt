@@ -1,32 +1,32 @@
-Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-03 23:08 MSK
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 18:59 MSK
 Nmap scan report for 192.168.57.10
-Host is up (0.00038s latency).
+Host is up (0.00033s latency).
 
 PORT   STATE SERVICE
 21/tcp open  ftp
 |_ftp-anon: Anonymous FTP login allowed (FTP code 230)
 
-Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
-Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-03 23:08 MSK
+Nmap done: 1 IP address (1 host up) scanned in 0.28 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 18:59 MSK
 NSE: [ftp-bounce] PORT response: 500 Illegal PORT command.
 Nmap scan report for 192.168.57.10
-Host is up (0.00040s latency).
-
-PORT   STATE SERVICE
-21/tcp open  ftp
-
-Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
-Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-03 23:08 MSK
-Nmap scan report for 192.168.57.10
-Host is up (0.00061s latency).
-
-PORT   STATE SERVICE
-21/tcp open  ftp
-
-Nmap done: 1 IP address (1 host up) scanned in 0.27 seconds
-Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-03 23:08 MSK
-Nmap scan report for 192.168.57.10
 Host is up (0.00038s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.23 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 18:59 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00033s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 18:59 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00034s latency).
 
 PORT   STATE SERVICE
 21/tcp open  ftp
@@ -45,35 +45,132 @@ PORT   STATE SERVICE
 |_End of status
 
 Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
-Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-05 15:21 MSK
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 18:59 MSK
 Nmap scan report for 192.168.57.10
-Host is up (0.00049s latency).
+Host is up (0.00044s latency).
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:10 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00033s latency).
 
 PORT   STATE SERVICE
 21/tcp open  ftp
 |_ftp-anon: Anonymous FTP login allowed (FTP code 230)
 
-Nmap done: 1 IP address (1 host up) scanned in 0.31 seconds
-Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-05 15:21 MSK
+Nmap done: 1 IP address (1 host up) scanned in 0.27 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:10 MSK
 NSE: [ftp-bounce] PORT response: 500 Illegal PORT command.
 Nmap scan report for 192.168.57.10
-Host is up (0.00030s latency).
+Host is up (0.00038s latency).
 
 PORT   STATE SERVICE
 21/tcp open  ftp
 
-Nmap done: 1 IP address (1 host up) scanned in 0.40 seconds
-Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-05 15:21 MSK
+Nmap done: 1 IP address (1 host up) scanned in 0.26 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:10 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00044s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.26 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:10 MSK
 Nmap scan report for 192.168.57.10
 Host is up (0.00032s latency).
 
 PORT   STATE SERVICE
 21/tcp open  ftp
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 192.168.57.1
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 2
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
 
 Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
-Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-05 15:21 MSK
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:44 MSK
 Nmap scan report for 192.168.57.10
-Host is up (0.00057s latency).
+Host is up (0.00038s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.29 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:44 MSK
+NSE: [ftp-bounce] PORT response: 500 Illegal PORT command.
+Nmap scan report for 192.168.57.10
+Host is up (0.00037s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:44 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00037s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.23 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:44 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00035s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 192.168.57.1
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 2
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+
+Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:44 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00039s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:44 MSK
+NSE: [ftp-bounce] PORT response: 500 Illegal PORT command.
+Nmap scan report for 192.168.57.10
+Host is up (0.00041s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:44 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00036s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:44 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00036s latency).
 
 PORT   STATE SERVICE
 21/tcp open  ftp
@@ -92,3 +189,900 @@ PORT   STATE SERVICE
 |_End of status
 
 Nmap done: 1 IP address (1 host up) scanned in 0.23 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:57 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00039s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.27 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:57 MSK
+NSE: [ftp-bounce] PORT response: 500 Illegal PORT command.
+Nmap scan report for 192.168.57.10
+Host is up (0.00032s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.49 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:57 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00042s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:57 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00041s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 192.168.57.1
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 2
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:57 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00037s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:57 MSK
+NSE: [ftp-bounce] PORT response: 500 Illegal PORT command.
+Nmap scan report for 192.168.57.10
+Host is up (0.00064s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:57 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00039s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:57 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00034s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 192.168.57.1
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 2
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+
+Nmap done: 1 IP address (1 host up) scanned in 0.30 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:58 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00028s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:58 MSK
+NSE: [ftp-bounce] PORT response: 500 Illegal PORT command.
+Nmap scan report for 192.168.57.10
+Host is up (0.00049s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 10.65 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:58 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00067s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:58 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00039s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 192.168.57.1
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 2
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:59 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00032s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:59 MSK
+NSE: [ftp-bounce] PORT response: 500 Illegal PORT command.
+Nmap scan report for 192.168.57.10
+Host is up (0.00062s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:59 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00038s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 19:59 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00040s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 192.168.57.1
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 2
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:00 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00035s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:00 MSK
+NSE: [ftp-bounce] PORT response: 500 Illegal PORT command.
+Nmap scan report for 192.168.57.10
+Host is up (0.00043s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:00 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00036s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:00 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00035s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 192.168.57.1
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 2
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+
+Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:00 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00064s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:00 MSK
+NSE: [ftp-bounce] PORT response: 500 Illegal PORT command.
+Nmap scan report for 192.168.57.10
+Host is up (0.00039s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:00 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00042s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.23 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:00 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00041s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 192.168.57.1
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 2
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:01 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00028s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.27 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:01 MSK
+NSE: [ftp-bounce] PORT response: 500 Illegal PORT command.
+Nmap scan report for 192.168.57.10
+Host is up (0.00042s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:01 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00036s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:01 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00035s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 192.168.57.1
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 2
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+
+Nmap done: 1 IP address (1 host up) scanned in 0.27 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:02 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00038s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:02 MSK
+NSE: [ftp-bounce] PORT response: 500 Illegal PORT command.
+Nmap scan report for 192.168.57.10
+Host is up (0.00039s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:02 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00077s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:02 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00040s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 192.168.57.1
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 2
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:03 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00034s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:03 MSK
+NSE: [ftp-bounce] PORT response: 500 Illegal PORT command.
+Nmap scan report for 192.168.57.10
+Host is up (0.00038s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:04 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00058s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:04 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00040s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 192.168.57.1
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 2
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:04 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00035s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:04 MSK
+NSE: [ftp-bounce] PORT response: 500 Illegal PORT command.
+Nmap scan report for 192.168.57.10
+Host is up (0.00038s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:04 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00041s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.23 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:04 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00041s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 192.168.57.1
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 2
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:06 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00040s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:06 MSK
+NSE: [ftp-bounce] PORT response: 500 Illegal PORT command.
+Nmap scan report for 192.168.57.10
+Host is up (0.00041s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:06 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00039s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:06 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00040s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 192.168.57.1
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 2
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:07 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00041s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:07 MSK
+NSE: [ftp-bounce] PORT response: 500 Illegal PORT command.
+Nmap scan report for 192.168.57.10
+Host is up (0.00037s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:07 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00040s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.23 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:07 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00042s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 192.168.57.1
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 2
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+
+Nmap done: 1 IP address (1 host up) scanned in 0.23 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:07 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00032s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:07 MSK
+NSE: [ftp-bounce] PORT response: 500 Illegal PORT command.
+Nmap scan report for 192.168.57.10
+Host is up (0.00042s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:07 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00033s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:07 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00044s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 192.168.57.1
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 2
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+
+Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:09 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00034s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:09 MSK
+NSE: [ftp-bounce] PORT response: 500 Illegal PORT command.
+Nmap scan report for 192.168.57.10
+Host is up (0.00038s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:09 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00036s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.23 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:09 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00042s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 192.168.57.1
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 2
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:11 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00033s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 3.25 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:11 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00079s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 3.45 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:11 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00040s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:11 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00039s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 3.20 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:13 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00038s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 3.71 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:13 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00041s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 3.17 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:13 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00079s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+| ftp-libopie: 
+|   VULNERABLE:
+|   OPIE off-by-one stack overflow
+|     State: LIKELY VULNERABLE
+|     IDs:  CVE:CVE-2010-1938  BID:40403
+|     Risk factor: High  CVSSv2: 9.3 (HIGH) (AV:N/AC:M/Au:N/C:C/I:C/A:C)
+|       An off-by-one error in OPIE library 2.4.1-test1 and earlier, allows remote
+|       attackers to cause a denial of service or possibly execute arbitrary code
+|       via a long username.
+|     Disclosure date: 2010-05-27
+|     References:
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1938
+|       http://site.pi3.com.pl/adv/libopie-adv.txt
+|       http://security.freebsd.org/advisories/FreeBSD-SA-10:05.opie.asc
+|_      https://www.securityfocus.com/bid/40403
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:13 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00038s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 3.58 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:14 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00038s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 2.98 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:14 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00065s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 3.06 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:14 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00064s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.23 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:14 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00038s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 3.47 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:16 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00038s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 3.32 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:16 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00039s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 3.74 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:16 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00055s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:16 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00037s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 2.95 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:17 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00038s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 2.92 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:17 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00038s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 3.01 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:17 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00046s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.23 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:17 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00039s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 3.40 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:18 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00033s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 3.04 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:18 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00037s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 3.46 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:18 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00039s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:18 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00039s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 3.02 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:20 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00040s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 2.99 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:20 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00080s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 3.05 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:20 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00034s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.26 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-02-08 20:20 MSK
+Nmap scan report for 192.168.57.10
+Host is up (0.00038s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 3.27 seconds
